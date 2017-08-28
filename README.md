@@ -4,7 +4,7 @@ Modify the keras MNIST examples to use the new Fashion-MNIST dataset from @[Zala
 All the code files here are originally part of the [keras examples](https://github.com/fchollet/keras/tree/master/examples), and was modified to serve as a starting point to any one aiming to start using
 the new Fashion-MNIST dataset.
 
-#[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
+# [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist)
 A dataset of Zalando's article images consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Fashion-MNIST is intended to serve as a direct drop-in replacement of the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/) for benchmarking machine learning algorithms.
 
 # Included Examples

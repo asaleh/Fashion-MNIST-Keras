@@ -1,5 +1,5 @@
 '''This is a reproduction of the IRNN experiment
-with pixel-by-pixel sequential MNIST in
+with pixel-by-pixel sequential FASHION MNIST in
 "A Simple Way to Initialize Recurrent Networks of Rectified Linear Units"
 by Quoc V. Le, Navdeep Jaitly, Geoffrey E. Hinton
 
@@ -16,7 +16,7 @@ Reaches 0.93 train/test accuracy after 900 epochs
 from __future__ import print_function
 
 import keras
-from keras.datasets import mnist
+import fashion_mnist
 from keras.models import Sequential
 from keras.layers import Dense, Activation
 from keras.layers import SimpleRNN
@@ -32,7 +32,7 @@ learning_rate = 1e-6
 clip_norm = 1.0
 
 # the data, shuffled and split between train and test sets
-(x_train, y_train), (x_test, y_test) = mnist.load_data()
+(x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 
 x_train = x_train.reshape(x_train.shape[0], -1, 1)
 x_test = x_test.reshape(x_test.shape[0], -1, 1)

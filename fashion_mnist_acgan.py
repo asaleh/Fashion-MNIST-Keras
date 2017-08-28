@@ -9,16 +9,6 @@ by ~15 epochs. You should use a GPU, as the convolution-heavy operations are
 very slow on the CPU. Prefer the TensorFlow backend if you plan on iterating,
 as the compilation time can be a blocker using Theano.
 
-Timings:
-
-Hardware           | Backend | Time / Epoch
--------------------------------------------
- CPU               | TF      | 3 hrs
- Titan X (maxwell) | TF      | 4 min
- Titan X (maxwell) | TH      | 7 min
-
-Consult https://github.com/lukedeo/keras-acgan for more information and
-example output
 """
 from __future__ import print_function
 

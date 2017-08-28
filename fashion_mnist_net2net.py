@@ -42,16 +42,6 @@ Experiments
   + Addition of noise in 'net2wider' is used to break weight symmetry
     and thus enable full capacity of student models. It is optional
     when a Dropout layer is used.
-
-Results
-- Tested with 'Theano' backend and 'channels_first' image_data_format.
-- Running on GPU GeForce GTX 980M
-- Performance Comparisons - validation loss values during first 3 epochs:
-(1) teacher_model:             0.075    0.041    0.041
-(2) wider_random_pad:          0.036    0.034    0.032
-(3) wider_net2wider:           0.032    0.030    0.030
-(4) deeper_random_init:        0.061    0.043    0.041
-(5) deeper_net2deeper:         0.032    0.031    0.029
 '''
 
 from __future__ import print_function

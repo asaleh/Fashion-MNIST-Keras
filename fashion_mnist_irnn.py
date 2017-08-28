@@ -9,8 +9,6 @@ http://arxiv.org/pdf/1504.00941v2.pdf
 Optimizer is replaced with RMSprop which yields more stable and steady
 improvement.
 
-Reaches 0.93 train/test accuracy after 900 epochs
-(which roughly corresponds to 1687500 steps in the original paper.)
 '''
 
 from __future__ import print_function

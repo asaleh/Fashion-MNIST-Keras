@@ -22,7 +22,6 @@ column of pixels of shape (28, 1) to a column vector of shape (128,). The second
 layer encodes then these 28 column vectors of shape (28, 128) to a image vector
 representing the whole image. A final Dense layer is added for prediction.
 
-After 5 epochs: train acc: 0.9858, val acc: 0.9864
 """
 from __future__ import print_function
 

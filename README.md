@@ -19,7 +19,7 @@ Implementation of AC-GAN ( Auxiliary Classifier GAN ) on the FASHION-MNIST datas
 Trains a simple convnet on the FASHION-MNIST dataset.
 
 [fashion_mnist_hierarchical_rnn.py](fashion_mnist_hierarchical_rnn.py)
-Trains a Hierarchical RNN (HRNN) to classify FASHION-MNIST digits.
+Trains a Hierarchical RNN (HRNN) to classify FASHION-MNIST images.
 
 [fashion_mnist_irnn.py](fashion_mnist_irnn.py)
 Reproduction of the IRNN experiment with pixel-by-pixel sequential FASHION-MNIST in "A Simple Way to Initialize Recurrent Networks of Rectified Linear Units" by Le et al.
